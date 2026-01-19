@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest",
+                "--cdp-endpoint",
+                "http://0.0.0.0:19222"
+            ]
+        }
+    }
+}

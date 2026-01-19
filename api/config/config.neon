@@ -1,0 +1,25 @@
+# ======================================
+# Includes ===============================
+includes:
+	- doctrine.neon
+
+# ======================================
+# Config ===============================
+php:
+	date.timezone: Europe/Prague
+	# session.save_path: %tempDir%/session
+
+# ======================================
+# Parameters ===========================
+parameters:
+	database:
+		driver: pdo_sqlite
+		path: "%appDir%/../db/db.sqlite"
+		password: test
+		user: test
+
+# ======================================
+# Services =============================
+services:
+	- App\Model\Routing\RouterFactory
+	routing.router: @App\Model\Routing\RouterFactory::create

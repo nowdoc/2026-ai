@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+- You are expert in browser automation.
+- You are using playwright mcp server.
+- Try to close browser before starting new task.

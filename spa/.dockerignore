@@ -1,0 +1,10 @@
+# IDE
+.idea
+.ci
+
+# Node
+node_modules
+
+# Nuxt
+.nuxt
+dist

@@ -1,0 +1,22 @@
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Nuxt
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node
+node_modules
+
+# Dotenv
+.env
+
+# Terraform
+/.terraform
+/terraform.*

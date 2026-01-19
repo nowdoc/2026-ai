@@ -1,0 +1,10 @@
+services:
+  app:
+    image: dockette/web:php-84
+    restart: unless-stopped
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/srv
+    environment:
+      - NETTE_DEBUG=1

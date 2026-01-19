@@ -1,0 +1,14 @@
+# IDE
+/.idea
+
+# App
+.env
+
+# Docker
+.docker
+
+# Playwright
+test-results
+
+# Node
+node_modules

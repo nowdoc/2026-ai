@@ -1,0 +1,110 @@
+{
+  "packages": [
+    {
+      "id": "150676",
+      "name": "M",
+      "title": "M - Nejoblíbenější",
+      "price": "1 Kč",
+      "price_after": "259 Kč",
+      "price_period": "na 30 dní, poté 259 Kč měsíčně",
+      "price_numeric": 1,
+      "price_after_numeric": 259,
+      "channels": "122",
+      "channels_numeric": 122,
+      "description": "Sledujte, co chcete a kdy chcete.",
+      "features": [
+        "Předplatné Light",
+        "Prima+ LIGHT v hodnotě 99 Kč je v ceně balíčku",
+        "Na 4 zařízení",
+        "Sledovat můžete současně na maximálně 2 zařízeních",
+        "7 dní TV archiv",
+        "100 h nahrávek",
+        "Sledování na mobilu a tabletu",
+        "Videotéka PlayTV a ducktv"
+      ],
+      "url": "https://sledovanitv.cz/registration/package-detail/?id=150676",
+      "is_promotional": true
+    },
+    {
+      "id": "150682",
+      "name": "S",
+      "title": "S - Základní",
+      "price": "159 Kč",
+      "price_period": "měsíčně",
+      "price_numeric": 159,
+      "channels": "70",
+      "channels_numeric": 70,
+      "description": "Základní TV pro nenáročné.",
+      "features": [
+        "Předplatné",
+        "Na 1 zařízení",
+        "10 h TV archiv",
+        "0 h nahrávek",
+        "Sledování na mobilu a tabletu",
+        "Videotéka PlayTV a ducktv"
+      ],
+      "url": "https://sledovanitv.cz/registration/package-detail/?id=150682",
+      "is_promotional": false
+    },
+    {
+      "id": "150670",
+      "name": "L",
+      "title": "L - Premium",
+      "price": "399 Kč",
+      "price_period": "měsíčně",
+      "price_numeric": 399,
+      "channels": "149",
+      "channels_numeric": 149,
+      "description": "Víc zážitků, víc svobody, víc televize.",
+      "features": [
+        "Předplatné Light",
+        "Prima+ LIGHT v hodnotě 99 Kč je v ceně balíčku",
+        "Na 4 zařízení",
+        "Sledovat můžete současně na maximálně 2 zařízeních",
+        "7 dní TV archiv",
+        "300 h nahrávek",
+        "Sledování na mobilu a tabletu",
+        "Videotéka PlayTV a ducktv"
+      ],
+      "url": "https://sledovanitv.cz/registration/package-detail/?id=150670",
+      "is_promotional": false
+    },
+    {
+      "id": "150664",
+      "name": "XL",
+      "title": "XL - Nejvyšší",
+      "price": "659 Kč",
+      "price_period": "měsíčně",
+      "price_numeric": 659,
+      "channels": "180",
+      "channels_numeric": 180,
+      "description": "To nejlepší, co můžete mít.",
+      "features": [
+        "Předplatné Premium",
+        "Prima+ PREMIUM v hodnotě 149 Kč je v ceně balíčku",
+        "Na 4 zařízení",
+        "Sledovat můžete současně na maximálně 2 zařízeních",
+        "7 dní TV archiv",
+        "900 h nahrávek",
+        "Sledování na mobilu a tabletu",
+        "Videotéka PlayTV a ducktv"
+      ],
+      "url": "https://sledovanitv.cz/registration/package-detail/?id=150664",
+      "is_promotional": false
+    }
+  ],
+  "metadata": {
+    "source": "https://sledovanitv.cz",
+    "scraped_at": "2025-01-27T12:00:00Z",
+    "total_packages": 4,
+    "price_range": {
+      "min": 1,
+      "max": 659,
+      "currency": "CZK"
+    },
+    "channel_range": {
+      "min": 70,
+      "max": 180
+    }
+  }
+}
