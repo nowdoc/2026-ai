@@ -26,19 +26,35 @@ class HomePresenter extends BasePresenter
 		$user = new User(Random::generate(20));
 		$this->em->persist($user);
 		$this->em->flush();
-		$this->flashMessage('Saved');
+		$this->flashMessage('User created.', 'success');
+		$this->redirect('this');
+	}
+
+	public function handleCreate5RandomUsers(): void
+	{
+		for ($i = 0; $i < 5; $i++) {
+			$this->em->persist(new User(Random::generate(20)));
+		}
+
+		$this->em->flush();
+
+		$this->flashMessage('5 users created.', 'success');
 		$this->redirect('this');
 	}
 
 	public function handleDeleteUsers(): void
 	{
-		$this->em->getRepository(User::class)
+		$affected = (int) $this->em->getRepository(User::class)
 			->createQueryBuilder('u')
 			->delete()
 			->getQuery()
 			->execute();
 
-		$this->flashMessage('Removed');
+		if ($affected === 0) {
+			$this->flashMessage('No users to remove.', 'info');
+		} else {
+			$this->flashMessage(sprintf('Removed %d %s.', $affected, $affected === 1 ? 'user' : 'users'), 'success');
+		}
 		$this->redirect('this');
 	}
 
