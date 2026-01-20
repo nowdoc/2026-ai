@@ -1,7 +1,11 @@
 ---
-description: Smart auto-commit with Conventional Commits format
-allowed-tools: Bash(git status:*), Bash(git diff:*), Bash(git log:*), Bash(git add:*), Bash(git commit:*)
-argument-hint: [optional custom message]
-model: claude-3-5-sonnet-20241022
+description: Commit changes to the repository
 ---
 
+# Git Commit
+
+1. List last 10 commits
+2. Understand git commit patterns
+3. Take a look at the changes in this chat/context
+4. Based on the changes, suggest a commit message
+5. Commit the changes with the suggested message
